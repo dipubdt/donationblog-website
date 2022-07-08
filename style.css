@@ -17,6 +17,8 @@ body {
     align-items: center;
     text-align: center;
 
+    margin-bottom: 100px;
+
 }
 
 .header-section h1 {
@@ -39,3 +41,157 @@ body {
 }
 
 /* first section end */
+
+
+/* second section start */
+
+.second {
+
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.second h1 {
+
+    color: rgb(15, 13, 13);
+    font-size: 50px;
+
+}
+
+.second p {
+
+    color: rgba(26, 22, 22, 0.637);
+    font-weight: 400;
+
+}
+
+.main {
+
+    display: flex;
+
+}
+
+.main div {
+
+    /* box-shadow: 10px 10px 40px gray; */
+
+    padding: 8px 18px;
+    color: rgba(37, 34, 34, 0.493);
+    background-color: rgba(193, 193, 201, 0.164);
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+#border-second {
+
+    border: 2px solid orangered;
+    background-color: rgba(240, 136, 38, 0.171);
+    color: rgba(231, 57, 26, 0.938)
+}
+
+
+#input-felid {
+
+    min-width: 100%;
+    min-height: 19px;
+    text-align: center;
+    border-color: rgba(240, 248, 255, 0);
+    border-bottom: 1px solid rgba(40, 39, 41, 0.24);
+    margin-left: 20px;
+
+}
+
+/* second section end  */
+
+.third {
+    height: 620px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+
+
+.third h1 {
+
+    color: rgb(15, 13, 13);
+    font-size: 40px;
+
+}
+
+.third p {
+
+    color: rgba(26, 22, 22, 0.637);
+    font-weight: 400;
+
+}
+
+
+.parrent {
+
+    display: flex;
+}
+
+.parrent div {
+
+    color: rgba(37, 34, 34, 0.493);
+    background-color: rgba(193, 193, 201, 0.164);
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+    border-radius: 2%;
+
+    width: 30%;
+}
+
+
+.tri-width {
+
+    text-align: left;
+    padding: 30px 20px 30px 20px;
+
+
+
+}
+
+.tri-width h4 {
+
+
+
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.tri-width p {
+
+    font-size: 15px;
+}
+
+
+#tri-first {
+
+
+    background-color: rgba(182, 212, 236, 0.219);
+}
+
+#tri-second {
+    background-color: rgba(223, 83, 153, 0.205);
+}
+
+#tri-third {
+
+    background-color: rgba(228, 198, 64, 0.404);
+}
