@@ -4,7 +4,6 @@ body {
 
     font-family: 'Poppins', sans-serif;
 
-
 }
 
 
@@ -301,7 +300,8 @@ body {
 
     align-items: center;
 
-    background-color: rgba(247, 184, 113, 0.61);
+    background-color: rgb(247 184 113 / 33%);
+
 
 
     height: 150px;
@@ -327,7 +327,7 @@ body {
 }
 
 .input-boxes input {
-    padding: 10px 25px;
+    padding: 11px 25px;
     color: black;
 
     border-bottom-left-radius: 5px;
@@ -369,6 +369,7 @@ footer div {
     font-family: "Brush Script MT", Fantasy !important;
     color: red;
     font-size: 30px;
+    font-weight: 100;
 
 }
 
