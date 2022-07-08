@@ -1,7 +1,12 @@
 body {
     margin: 0%;
     padding: 0%;
+
+    font-family: 'Poppins', sans-serif;
+
+
 }
+
 
 /* First section start */
 
@@ -87,7 +92,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -195,3 +200,181 @@ body {
 
     background-color: rgba(228, 198, 64, 0.404);
 }
+
+
+/* end thirst section */
+
+
+/* start four section */
+
+.four {
+
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12% 0 20%;
+    max-width: 80%;
+    margin-bottom: 50px;
+
+
+
+}
+
+.half-area {
+    width: 50%;
+
+    margin-right: -28px;
+
+}
+
+.half-area h1 {
+
+    font-size: 35px;
+}
+
+.half-area p {
+
+    line-height: 5mm;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+#img-fixed img {
+
+    height: 370px;
+    width: 300px;
+    border-radius: 2%;
+}
+
+.text-btn2 {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: rgba(243, 40, 40, 0.904);
+    border-radius: 5px;
+
+}
+
+#fixed-margin {
+
+    padding-right: -18px;
+
+}
+
+/* end four section */
+
+/* next section same css */
+
+/* strat six section */
+.six {
+
+    height: 419px;
+}
+
+.six div {
+
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.six h1 {
+
+    font-size: 50px;
+
+}
+
+.six p {
+
+    color: rgba(52, 55, 58, 0.726);
+    text-align: center;
+}
+
+.area-two {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: rgba(247, 184, 113, 0.61);
+
+
+    height: 150px;
+
+    margin: 0 28% 0 28%;
+
+}
+
+
+.btn a {
+
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: rgb(243, 40, 40);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#bg-clr {
+
+    background-color: rgb(29, 25, 25);
+}
+
+.input-boxes input {
+    padding: 10px 25px;
+    color: black;
+
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-color: rgba(37, 36, 36, 0);
+    background-color: rgba(190, 178, 178, 0.795);
+}
+
+
+/* End  six section */
+
+
+
+/* footer start */
+
+footer {
+
+    height: 150px;
+    background-color: black;
+
+
+}
+
+
+footer div {
+
+
+    text-align: center;
+    color: aliceblue;
+
+    padding-top: 12px;
+
+
+
+}
+
+#fnt-style {
+
+    font-family: "Brush Script MT", Fantasy !important;
+    color: red;
+    font-size: 30px;
+
+}
+
+footer div p {
+
+    font-size: 10px;
+}
+
+/* footer end */
